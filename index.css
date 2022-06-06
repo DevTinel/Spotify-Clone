@@ -158,6 +158,10 @@ body {
     width: 10ch;
     margin-top: -150px;
   }
+  .content p{
+      font-size: 0.900rem;
+
+  }
 }
 
 /* FOOTER CSS  */
