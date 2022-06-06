@@ -166,7 +166,7 @@ body {
 }
 @media (max-width: 470px) {
   .content h1 {
-    width: 100%;
+    width: 12ch;
     font-size: 3rem;
     margin-top: -150px;
   }
