@@ -6,6 +6,7 @@
 body {
   background-color: #2941ab;
   font-family: Roboto;
+  overflow-x: hidden;
 }
 
 /* HEADER NAV  CSS*/
@@ -240,7 +241,7 @@ span {
   }
   .footer .img {
     margin-left: 20px;
-    margin-bottom: -80px;
+    margin-bottom: px;
   }
   .redes-sociais {
     margin: 0 auto;
@@ -274,19 +275,22 @@ span {
   padding-bottom: 50px;
   align-items: center;
   margin: 0 auto;
+  justify-content: space-between;
 }
 .copy-itens {
   display: flex;
-  width: 70%;
-  margin: 0 auto;
+  width: max-content;
+  flex-wrap: nowrap;
+  justify-content: center;
   align-items: center;
   gap: 20px;
   font-size: 0.7rem;
 }
 .copy-itens a {
-  width: 100%;
-  display: inline-block;
+  width: max-content;
+  display: flex;
   color: gray;
+  flex-wrap: wrap;
   text-decoration: none;
 }
 .copyright {
@@ -324,5 +328,18 @@ span {
         display: flex;
         padding: 10px;
         padding-bottom: 30px;
+    }
+    .copy-itens{
+        width: 100%;
+        flex-wrap: wrap;
+        font-size: 0.6rem;
+        gap: 15px;
+        margin: left;
+        text-align: left;
+    }
+    .copy-itens a{
+        margin-left: 0;
+        gap: 0;
+        text-align: left;
     }
 }
