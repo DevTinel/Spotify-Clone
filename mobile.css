@@ -1,0 +1,36 @@
+.mobile {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  background-color: #000;
+  width:100vw;
+  z-index: 10;
+  height: 100vh;
+  padding-top: 20px;    
+  padding-bottom: 100px;    
+}
+.mobile li {
+    color: white;
+    margin-left: -35px;
+    padding-bottom: 15px;
+    list-style: none;
+    align-items: center;
+}
+.mobile a {
+    font-weight: bold;
+    width: 150px;
+    color: #222;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 130px;
+    background-color: rgb(96, 93, 93);    
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+}
+.mobile a:hover{
+    color: rgb(27, 202, 27);
+}
