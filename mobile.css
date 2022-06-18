@@ -26,13 +26,31 @@
   color: #f0efef;
   display: inline-block;
   border-radius: 4px;
-  padding: 10px;
-  margin-left: 90px;
-  background-color: #333;
+   margin-left: 50px;
   text-decoration: none;
-  font-size: 2rem;
-  text-align: center;
+  font-size: 1.875rem;
+  text-align: left;
 
+}
+.mobile-itens li:nth-child(-n+3){
+  font-weight: bold;
+}
+.mobile-itens li:nth-child(3)::after{
+  content: '';
+  position: absolute;
+  left: 50px;
+  top: 60px;
+  background-color: #fff;
+  height: 2px;
+  width: 30px;
+  margin-bottom: 30px;
+}
+ 
+.mobile-itens li:nth-child(4){
+  padding-top: 50px;
+}
+.mobile-itens .letrap{
+  font-size: 1.5rem;
 }
 .mobile-itens li{
   animation: slideLeft .3s forwards;
@@ -47,6 +65,7 @@
 .ativo {
   display: block;
 }
+
 
 @keyframes slideLeft {
   from{opacity: 0;
