@@ -13,7 +13,7 @@
   height:420px;
   padding-top: 20px;
   border-top: 1px solid greenyellow;
-  font-family: monospace;
+  font-family: arial;
   box-sizing: border-box;
 }
 .mobile li {
@@ -24,12 +24,12 @@
   align-items: center;
 }
 .mobile-itens a {
-  width: 240px;
+  width: 260px;
   color: #f0efef;
   display: inline-block;
   border-radius: 4px;
   padding: 10px;
-  margin-left: 110px;
+  margin-left: 100px;
   background-color: #111;
   text-decoration: none;
   font-size: 2rem;
