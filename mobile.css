@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 .mobile li {
-  color: white;
+  color:#fff;
   margin-left: -15px;
   padding-bottom: 15px;
   list-style: none;
