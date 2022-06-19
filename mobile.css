@@ -1,7 +1,7 @@
 
 .mobile {
   position: absolute;
-  top: 100px;
+  top: 70px;
   left: 0;
   bottom: 0;
   display: none;
@@ -20,6 +20,8 @@
   padding-bottom: 15px;
   list-style: none;
   align-items: center;
+  transition: .4s;
+
 }
 .mobile-itens a{
   width: 15ch;
