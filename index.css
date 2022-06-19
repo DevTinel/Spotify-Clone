@@ -203,6 +203,7 @@ body {
   .content a{
       margin-bottom: -180px;
   }
+  
   .itens{
     display: none;
   }
@@ -219,9 +220,9 @@ body {
   .nav-mob {
    display: flex;
    width:300px;
+   overflow-x: hidden;
    margin: 0 auto;
    align-items : center;
-   justify-content: space-around;
   }
 
 }
