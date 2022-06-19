@@ -91,7 +91,7 @@
 .preto{
   background-color: #000;
 }
-.preto .content h1{
+.preto .content h1,p{
   color: black;
 }
 .hamburguer{
