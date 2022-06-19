@@ -91,7 +91,7 @@
 .preto{
   background-color: #000;
 }
-.preto .content h1,p{
+.preto.content p, .preto.content h1{
   color: black;
 }
 .hamburguer{
@@ -102,6 +102,7 @@
   justify-content: space-around;
 
 }
+
 .rotate1{
   transform: rotate(45deg);
   margin-top: -9px;
