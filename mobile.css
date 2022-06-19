@@ -64,6 +64,14 @@
   animation: slideLeft .3s forwards;
   
 }
+@keyframes slideLeft {
+  from{
+    transform: translate3d(130px,0,0);
+  }to{
+    transform: translate3d(0,0,0);
+
+  }
+}
 
 .mobile a:hover {
   color: rgb(27, 202, 27);
@@ -74,21 +82,9 @@
   display: block;
 } 
 
-.rotate{
-  transform: rotate(90deg) ;
-  transition: .6s;
- margin-left: -40px;
- margin-top: -20px;
-}
 
-@keyframes slideLeft {
-  from{opacity: 0;
-    transform: translate3d(130px,0,0);
-  }to{
-    opacity: 1;
-    transform: translate3d(0,0,0);
-  }
-}
+
+
 
 .scroll{
   display: none;
@@ -96,4 +92,60 @@
 .preto{
   background-color: rgb(0, 0, 0);
   color: rgb(139, 129, 129) !important;
+}
+.hamburguer{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 40px;
+  justify-content: space-around;
+
+}
+.rotate1{
+  transform: rotate(45deg);
+  margin-top: -9px;
+  margin-left: 0px;
+  transition: .5s;
+}
+.rotate2{
+  opacity: 0;
+  transition: .5s;
+
+}
+.rotate3{
+  transform: rotate(-45deg);
+  transition: .5s;
+
+  margin-top: 10px;
+}
+
+.item1{
+  margin-bottom: 1px;
+  background-color: aqua;
+  transition: .3s;
+
+
+}
+.item2{
+  margin-top: 9px;
+  transition: .3s;
+
+}
+.hamburguer .hamb{
+  position: absolute;
+  height: 2px;
+  background-color: #fff;
+  width: 20px;
+  display: inline-block;
+  transition: .3s;
+
+}
+.logo{
+  margin-left: -200px;
+}
+.none{
+  display: none;
+}
+.margintop{
+  margin-top: 60px;
 }
