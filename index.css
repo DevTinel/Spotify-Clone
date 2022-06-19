@@ -203,7 +203,9 @@ body {
   .content a{
       margin-bottom: -180px;
   }
-  
+  .content{
+    width: 350px;
+  }
   .itens{
     display: none;
   }
