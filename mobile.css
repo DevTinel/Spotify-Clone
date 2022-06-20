@@ -43,6 +43,8 @@
   height: 2px;
   width: 30px;
   margin-bottom: 30px;
+  animation: slideLeft .7s forwards;
+
 }
  
 .mobile-itens li:nth-child(4){
@@ -55,7 +57,7 @@
   width: 100px;
   margin-top: 180px;
   margin-left: -14px;
-  animation: slideLeft .3s forwards;
+  animation: slideLeft .8s ease-in-out;
   
 
 }
@@ -63,6 +65,26 @@
   animation: slideLeft .3s forwards;
   
 }
+.mobile-itens li .efeito1{
+  animation: slideLeft .5s forwards;
+
+}
+.mobile-itens li .efeito2{
+  animation: slideLeft .6s forwards;
+
+}
+.mobile-itens li .efeito3{
+  animation: slideLeft .7s forwards;
+
+}
+.mobile-itens li .efeito4{
+  animation: slideLeft .8s forwards;
+
+}
+  .mobile-itens li .efeito5{
+    animation: slideLeft .9s forwards;
+
+  }
 @keyframes slideLeft {
   from{
     transform: translate3d(130px,0,0);

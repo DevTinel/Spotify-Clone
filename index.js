@@ -41,9 +41,7 @@ const span2 = document.querySelector('.item2')
 const span3 = document.querySelector('.item3')
 const menuH = document.querySelector('[data-button]')
 const logo = document.querySelector('.logo')
-console.log(logo)
 
-console.log(span1,span2,span3)
 
 function handleClick(e){
   span1.classList.toggle('rotate1')
@@ -51,6 +49,8 @@ function handleClick(e){
   span3.classList.toggle('rotate3')
   logo.classList.toggle('none')
   menuH.classList.toggle('margintop')
+ 
+  
 }
 
 
