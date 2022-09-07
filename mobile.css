@@ -10,6 +10,7 @@
   padding-top: 20px;
   font-family: arial;
   box-sizing: border-box;
+
 }
 .mobile li {
   color:#fff;
@@ -17,7 +18,8 @@
   padding-bottom: 15px;
   list-style: none;
   align-items: center;
-  transition: .4s;
+ 
+  
 
 }
 .mobile-itens a{
